@@ -1,20 +1,25 @@
-# List of paths for the PATH variable.
+# List of paths to search in.
 # Order takes precedence.
 #
-# Empty lines or lines starting with '#'
-# will be ignored.
+# Empty lines or lines starting
+# with '#' are ignored.
 #
 # See ~/.bash_exports under set:
 #   PATH directories
-~/.local/scripts
-~/.local/bin
+~/bin
 /usr/local/sbin
 /usr/local/bin
 /usr/sbin
 /usr/bin
 /sbin
 /bin
+/usr/games
+/usr/local/games
+/snap/bin
 /opt/bin
+
+# Node.js
+~/bin/node-v22.17.0/bin
 
 # perl specific
 /usr/bin/site_perl
